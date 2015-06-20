@@ -1,15 +1,18 @@
-#header {
+header {
   position: absolute;
   top: 0;
   left: 0;
   background-color: #FF9933;
 }
 
+#header_contents {
+  position: relative;
+  width: 60%;
+  left: 20%;
+}
 #header_title {
 }
 
 #header_blurb {
-  position: relative;
-  width: 60%;
-  left: 20%;
+
 }
