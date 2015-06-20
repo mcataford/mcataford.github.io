@@ -2,7 +2,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #FF9933;
 }
 
 #header_contents {
@@ -11,6 +10,7 @@
   left: 20%;
 }
 #header_title {
+  font-size: 150%;
 }
 
 #header_blurb {
