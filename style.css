@@ -23,16 +23,16 @@
   display: none;
 }
 
-.sectionheaders {
+.section_headers {
   width: 100%;
   height: 50%;
 }
 
-#skillset {
+#skillset_header {
   background-color: #FF8822;
 }
 
-#experience {
+#experience_header {
   background-color: #FF9933;
 }
 
