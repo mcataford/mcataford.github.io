@@ -9,12 +9,12 @@
   width: 75%;
   left: 12.5%;    
   text-align: justify;
-  text-justify: inter-word;
 }
 #header_title {
   display: none;
   
   font-size: 250%;
+  width: 100%;
 }
 
 #header_blurb {
