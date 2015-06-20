@@ -8,6 +8,7 @@
 
 <!-- JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.js"></script>
 
 <script type='text/javascript' language='javascript' src='js/fx.js'></script>
 
@@ -36,7 +37,17 @@
   <!-- Header end -->
   <!-- Sections start -->
   <div id="skillset"></div>
-  <div id="experience"></div>
+  <div id="experience">
+    <div id="exp_contents">
+      <script id="exp-template" type="text/x-handlebars-template">
+        <ul>
+        {{#each experiences}}
+          
+        {{/each}}
+        </ul>      
+      </script>
+    </div>
+  </div>
   <div id="projects"></div>
   <div id="callmemaybe"></div>
   <!-- Sections end -->
