@@ -22,5 +22,16 @@
 
 #header_blurb {
   display: none;
+}
 
+#experience {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #FF9933;
+}
+
+#experience_contents {
+  display: none;
+  
 }
