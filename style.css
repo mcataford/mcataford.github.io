@@ -5,6 +5,8 @@
 }
 
 #header_contents {
+  display: none;
+  
   position: relative;
   width: 75%;
   left: 12.5%;    
@@ -12,6 +14,8 @@
   text-justify: inter-word;
 }
 #header_title {
+  display: none;
+  
   font-size: 250%;
 }
 
