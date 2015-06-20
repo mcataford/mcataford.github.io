@@ -40,11 +40,16 @@
   <div id="experience">
     <div id="exp_contents">
       <script id="exp-template" type="text/x-handlebars-template">
-        <ul>
         {{#each experiences}}
+        
+        <div id="{{@index}}">
+          <p>{{title}} at {{org}} from {{start}} to {{end}}.</p>
+          <ul>
+          {{#each task}}<li>{{this}}</li>{{/each}}
+          </ul>
+        <div>
           
         {{/each}}
-        </ul>      
       </script>
     </div>
   </div>
