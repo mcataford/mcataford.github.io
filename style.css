@@ -6,5 +6,6 @@ header {
 }
 
 #header_blurb {
+  position: relative;
   width: 80%;
 }
