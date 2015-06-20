@@ -12,6 +12,8 @@
 }
 
 #header_title {
+  position: relative;
+  width: 100%;
   display: none;
   
   font-size: 250%;
