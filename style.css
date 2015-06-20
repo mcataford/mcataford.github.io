@@ -7,7 +7,9 @@
 #header_contents {
   position: relative;
   width: 75%;
-  left: 12.5%;
+  left: 12.5%;    
+  text-align: justify;
+  text-justify: inter-word;
 }
 #header_title {
   font-size: 250%;
