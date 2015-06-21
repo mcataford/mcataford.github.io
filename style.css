@@ -30,25 +30,40 @@
   height: 50%;
 }
 
-#skillset_header {
-  background-color: #DE5235;
+.contents {
+  display: none;
 }
 
-#skillset_contents {
+#skillset .section_header {
+  background-color: #1F7A7A;
+  
+}
+
+#skillset .contents {
   background-color: #DB7B67;
 }
 
-#exp_header {
-  background-color: #35C1DE;
+#experience .section_header {
+  background-color: #29A3A3;
 }
 
-#exp_contents {
+#experience .contents {
   display: none;
   
-  background-color: #62C9DE;
+  background-color: #33CCCC;
+}
+
+#projects .section_header {
+  display: none;
   
+  background-color: #33CCCC;
 }
 
 .nomargin { margin: 0 0; }
 .invisible { display: none; }
 .pad5 { padding: 0 5; }
+.fullwidth { width: 100%; }
+.fleft { float: left; }
+.fright { float: right; }
+.clearb { clear: both; }
+.centered { align: center; }

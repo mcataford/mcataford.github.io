@@ -35,8 +35,10 @@
       </div>
     </div>
     <div id="skillset">
-    <div id="skillset_header" class="section_header"><h1 class="nomargin">Skillset</h1></div>
-    <div id="skillset_contents" class="invisible">
+    <div class="section_header fleft clearb fullwidth invisible">
+        <center><h1 class="nomargin centered">Skillset</h1></center>
+    </div>
+    <div class="contents">
       <ul class="nomargin pad5">
         <li>I comfortably program in <b>Java</b>,<b>C/C++</b>,<b>PHP</b> and <b>Javascript</b>.</li>
         <li>I can also use <b>jQuery</b>,<b>HandlebarsJS</b>,<b>MongoDB</b> and <b>MySQL</b> without problems.</li>
@@ -46,24 +48,29 @@
     
   </div>
     <div id="experience">
-    <div id="exp_header" class="section_header"><h1 class="nomargin">Experience</h1></div>
-    <div id="exp_contents" class="invisible">
-      <script id="exp-template" type="text/x-handlebars-template">
-        {{#each experiences}}
+      <div class="section_header fright clearb fullwidth invisible">
+          <center><h1 class="nomargin">Experience</h1></center>
+      </div>
+      <div class="contents">
+        <script id="exp-template" type="text/x-handlebars-template">
+          {{#each experiences}}
         
-        <div id="{{@index}}">
-          <p>{{title}} at {{org}} from {{start}} to {{end}}.</p>
-          <ul>
-          {{#each task}}<li>{{this}}</li>{{/each}}
-          </ul>
-        <div>
+          <div id="{{@index}}">
+            <p>{{title}} at {{org}} from {{start}} to {{end}}.</p>
+            <ul>
+            {{#each task}}<li>{{this}}</li>{{/each}}
+            </ul>
+          <div>
           
-        {{/each}}
-      </script>
+          {{/each}}
+        </script>
+      </div>
     </div>
-  </div>
-    <div id="projects"></div>
-    <div id="callmemaybe"></div>
+    <div id="projects">
+        <div class="section_header fleft clearb fullwidth invisible">
+            <center><h1 class="nomargin">Projects</h1></center>
+        </div>
+    </div>
   </div> <!-- endof: page wrapper -->
 
 </body>
