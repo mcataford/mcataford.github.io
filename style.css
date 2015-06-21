@@ -30,14 +30,20 @@
 }
 
 #skillset_header {
-  background-color: #FF8822;
+  background-color: #DE5235;
+}
+
+#skillset_contents {
+  background-color: #DB7B67;
 }
 
 #exp_header {
-  background-color: #FF9933;
+  background-color: #35C1DE;
 }
 
 #exp_contents {
   display: none;
+  
+  background-color: #62C9DE;
   
 }
