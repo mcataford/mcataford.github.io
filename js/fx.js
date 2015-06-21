@@ -5,11 +5,11 @@ $(window).ready(function() {
   $("#skillset .section_header").delay(1100).animate({width:"show"},800);
   $("#experience .section_header").delay(1100).animate({width:"show"},800);
   $("#projects .section_header").delay(1100).animate({width:"show"},800);
-});
-
+  
 //Expanding sections.
-$(".section_header h1").click(function() {
-  console.log("Yo");
+  $(".section_header").click(function() {
+    $(this).parent().find(".contents").toggle();
+  });
 });
 
 

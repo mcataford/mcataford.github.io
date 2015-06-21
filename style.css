@@ -21,22 +21,20 @@
 }
 
 #header_blurb {
-  display: none;
+  /*display: none;*/
 }
 
-.section_headers {
-  left: 0;
-  width: 100%;
-  height: 50%;
-}
+.section_header {}
 
+.section_header_text {
+	font-size: 250%;
+}
 .contents {
   display: none;
 }
 
 #skillset .section_header {
   background-color: #1F7A7A;
-  
 }
 
 #skillset .contents {
@@ -48,14 +46,10 @@
 }
 
 #experience .contents {
-  display: none;
-  
   background-color: #33CCCC;
 }
 
 #projects .section_header {
-  display: none;
-  
   background-color: #33CCCC;
 }
 
