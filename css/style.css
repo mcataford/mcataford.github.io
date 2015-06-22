@@ -1,0 +1,74 @@
+body {
+	background-color: #B2E0E0;
+}
+
+#left_field {
+	position: absolute;
+	width: 30%;
+	top: 15%;
+	left: 5%;
+}
+
+#intro_blurb {
+	text-align: justify;
+	
+}
+
+#right_field {
+	position: absolute;
+	width: 30%;
+	left:65%;
+	top: 15%;
+}
+
+#main {
+	position: absolute;
+	width: 40%;
+	left: 30%;
+	top: 5%;
+	
+}
+
+#main_title h1 {
+  text-align: center;
+}
+
+#main_mugshot {
+	
+  width: 300px;
+  height: 300px;
+  
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  
+  background: url(../images/me.jpg) no-repeat;
+  background-position: center;
+  background-size: 300px 300px;
+  
+}
+
+.menu_title {
+	text-align: center;
+	
+}
+
+.menu_contents {}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.social_icon:link {
+	  color: #000;
+    text-decoration: none;
+}
+
+.social_icon:visited {
+	color: #000;
+    text-decoration: none;
+}
+
+.invisible { display: none; }
