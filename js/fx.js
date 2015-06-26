@@ -11,9 +11,9 @@ $(window).ready(function() {
   $("#callmemaybe").delay(3300).fadeIn(1100);
   
 //Expanding sections.
-  /*$(".section_header").click(function() {
-    $(this).parent().find(".contents").toggle();
-  });*/
+  $(".menu_title").click(function() {
+    $(this).parent().find(".menu_contents").toggle();
+  });
 });
 
 

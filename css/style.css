@@ -21,6 +21,10 @@ body {
 	top: 15%;
 }
 
+.menu_contents {
+	text-align: center;
+}
+
 #main {
 	position: absolute;
 	width: 40%;
