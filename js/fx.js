@@ -11,9 +11,15 @@ $(window).ready(function() {
   $("#callmemaybe").delay(3300).fadeIn(1100);
   
 //Expanding sections.
-  $(".menu_title").click(function() {
+ /* $(".menu_title").click(function() {
     $(this).parent().find(".menu_contents").toggle();
-  });
+  });*/
+});
+
+//Click event handlers.
+$(document).on('click','#main_menu_skillset', function() {
+  $('#intro-blurb').hide();
+  $('#skillset').toggle();
 });
 
 
