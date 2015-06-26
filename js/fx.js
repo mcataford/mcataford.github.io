@@ -18,7 +18,7 @@ $(window).ready(function() {
 
 //Click event handlers.
 $(document).on('click','#main_menu_skillset', function() {
-  $('#intro_blurb').hide();
+  $('#intro_blurb').toggle();
   $('#skillset').toggle();
 });
 
