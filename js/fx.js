@@ -28,7 +28,7 @@ $(document).on('click','#main_menu_skillset', function() {
 
 $(document).on('click','#main_menu_blog', function() {
 	$('#pagewrap').fadeOut(1000);
-	$(window).load('/blogging/');
+	window.location.replace('mcataford.github.io/blogging');
 })
 
 
