@@ -100,16 +100,10 @@ body {
 	vertical-align: baseline;
 }
 
-#resume-skills {
-	float:left;
-}
-
-#resume-skills ul {
-	list-style: none;
-	text-align: center;
-}
-
-#resume-skills ul li {
+#resume-container {
+	font-size: 1.5em;
+	margin-left:2.3em;
+	width: 80vw;
 }
 
 /*
@@ -134,3 +128,4 @@ body {
 }
 
 .red { color: #ff0000; }
+.white { color: #fff; }
