@@ -3,7 +3,7 @@ $(window).ready(function() {
         anchors:['landing', 'resume','getInTouch']
     });
 
-    var period = "<span style='color:#000;font-weight:normal'>.</span>";
+    var period = "<span style='color:#727272;font-weight:normal'>.</span>";
   	var typedStrings = ["code"+period, "learn new things"+period, "tinker"+period, "communicate"+period, "teach"+period, "solve problems"+period, "get things done"+period];
 
   	$("#typedWords").typed({
