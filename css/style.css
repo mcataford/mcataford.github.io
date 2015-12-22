@@ -105,7 +105,7 @@ a i {
 #resume-container {
 	font-size: 1.3em;
 	margin-left:2.3em;
-	width: 80vw;
+	width: 95vw;
 	margin-top:2.3em;
 }
 
@@ -113,10 +113,10 @@ a i {
 	margin-top: 0;
 }
 
-.em-resume {
-	color: #000;
-	font-weight: bold;
-	font-size:1.5em;
+#img_bubble1 {
+	border-radius: 7em;
+	width: 20em;
+	display: inline;
 }
 
 /*
