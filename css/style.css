@@ -44,15 +44,15 @@ body {
 }
 
 #panel-resume {
-	background-color: #EF5350;
+	background-color: #03A9F4;
 }
 
 #panel-projects {
-	background-color: #42A5F5;
+	background-color: #00BCD4;
 }
 
 #panel-intouch {
-	background-color: #66BB6A;
+	background-color: #009688;
 }
 
 /*
@@ -101,13 +101,20 @@ body {
 }
 
 #resume-container {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-left:2.3em;
 	width: 80vw;
+	margin-top:2.3em;
+}
+
+#resume-container p {
+	margin-top: 0;
 }
 
 .em-resume {
-	color: #fff;
+	color: #000;
+	font-weight: bold;
+	font-size:1.5em;
 }
 
 /*
