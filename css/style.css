@@ -118,6 +118,27 @@ body {
 }
 
 /*
+* PROJECTS PANEL
+*/
+
+#panel-projects .fp-tableCell {
+	vertical-align: baseline;
+}
+
+.projects-row {
+	height: 100px;
+	width: 90vw;
+}
+
+.projects-cell {
+	width: 20vw;
+	height:100px;
+	background-color: #fff;
+	margin:0.5em 0.5em;
+	float:left;
+}
+
+/*
 * MODIFIERS
 */
 
