@@ -11,7 +11,9 @@ body {
 	height: 100vh;
 	width: 100vw;
 	background-color: #fff;
-	min-width: 1024px;
+
+	min-width: 1020px;
+	min-height: 640px;
 }
 
 .social {
@@ -109,20 +111,19 @@ a i {
 	vertical-align: baseline;
 }
 
-#resume-container {
-	font-size: 1.3em;
-	margin-left:2.3em;
-	width: 95vw;
-	margin-top:2.3em;
+#container-me {
+	margin-left:2vw;
+	width: 95%;
+	margin-top:2vh
 }
 
-#resume-container p {
+#container-me p {
 	margin-top: 0;
 }
 
 #img_bubble1 {
 	border-radius: 7em;
-	width: 20em;
+	width: 25vw;
 	display: inline;
 }
 
@@ -135,29 +136,35 @@ a i {
 }
 
 .projects-row {
-	height: 100px;
-	width: 90vw;
+	height: 36%;
+	width: 90%;
 	margin-left: auto;
 	margin-right:auto;
+	margin-top: 1vh;
+	padding: 1.5vh 7vw;
 }
 
 .projects-cell {
-	width: 25vw;
-	height:20vh;
+	width: 30%;
+	height:100%;
 	background-color: #03A9F4;
-	margin:0.5em 0.5em;
+	margin:1% 1%;
 	float:left;
 }
 
-#projects-main {
+#container-projects-main {
 	text-align:center;
+}
+
+.slide-header {
+	font-size: 4vw;
 }
 
 /*
 * MODIFIERS
 */
 
-.accentsize { font-size: 1.4em; }
+.accentsize { font-size: 3vw; }
 .basesize { font-size: 2vw; }
 
 .bold { font-weight: bold; }
