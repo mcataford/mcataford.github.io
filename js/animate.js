@@ -1,6 +1,6 @@
 $(window).ready(function() {
     $('#page').fullpage({
-        anchors:["landing","resume","projects","getInTouch"]
+        anchors:["landing","resume","getInTouch"]
     });
 
     var period = "<span style='color:#727272;font-weight:normal'>.</span>";
