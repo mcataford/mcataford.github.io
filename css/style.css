@@ -160,6 +160,55 @@ a i {
 	font-size: 4vw;
 }
 
+#cell1 {
+	background-image: url("../images/bathbomb1.jpg");
+	background-size: 100% 100%;
+	box-shadow: inset 0px 0px 0px 1000px rgba(0,0,0,0.5);
+}
+
+#cell2 {
+	background-image: url("../images/robotdpm.jpg");
+	background-size: 100% ;
+	box-shadow: inset 0px 0px 0px 1000px rgba(0,0,0,0.5);
+}
+
+.projects-cell p {
+	color: #fff;
+	font-family: Oswald;
+}
+
+.cell-date { font-size: 7vh; }
+.cell-title { font-size: 5vh; }
+.cell-source { font-size: 3vh; }
+
+/*
+* INTOUCH PANEL
+*/
+
+#panel-intouch .fp-tableCell {
+	vertical-align: baseline;
+}
+
+#container-intouch {
+	margin-left:2vw;
+	width: 95%;
+	margin-top:2vh
+}
+
+#social-boxes {
+	text-align: center;
+}
+
+#social-boxes ul {
+	list-style: none;
+}
+
+#social-boxes ul li {
+	display: inline;
+	margin-left: 3vh;
+	font-size:5vh;
+}
+
 /*
 * MODIFIERS
 */
