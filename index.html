@@ -86,18 +86,18 @@
 
 					<p class="primarytext basesize">You can also send me an <span class="accent accentsize oswald">email</span> at <a href="mailto:c.marcandre@gmail.com">c.marcandre[at]gmail.com</a>, or fill the form below!</p> 
 
-					<form action="https://api.formspree.io/c.marcandre@gmail.com" method="POST">
+					<form name="contactme" action="https://api.formspree.io/c.marcandre@gmail.com" method="POST">
 						<p class="accentsize accent oswald">About you:</p>
-						<p class="basesize">My name is <input name="name" type="text" class="accent" placeholder="Johnny Appleseed"required>, I'm a <input name="function" type="text" class="accent" placeholder="fellow tinkerer">. You can come back to me at <input name="_replyto" type="text" class="accent" placeholder="foo@bar.baz" required></p>
+						<p class="basesize">My name is <input form="contactme" name="name" type="text" class="accent" placeholder="Johnny Appleseed"required>, I'm a <input nform="contactme" name="function" type="text" class="accent" placeholder="fellow tinkerer">. You can come back to me at <input form="contactme" name="_replyto" type="text" class="accent" placeholder="foo@bar.baz" required></p>
 						<p class="basesize">I'd like to tell you about ...</p>
-						<p class="basesize"><textarea class="accent" placeholder="... this new cool thing I'm working on." required></textarea></p>
+						<p class="basesize"><textarea form="contactme" name="details" class="accent" placeholder="... this new cool thing I'm working on." required></textarea></p>
 						<div class="ta-center">
-							<input type="submit" name="sbt" value="Send message">
+							<input form="contactme" type="submit" name="sbt" value="Send message">
 						</div>
 
-						<input type="hidden" name="_subject" value="Contact form submission" />
-						<input type="text" name="_gotcha" style="display:none" />
-						<input type="hidden" name="_next" value="thanks.html" />
+						<input form="contactme" type="hidden" name="_subject" value="Contact form submission" />
+						<input form="contactme" type="text" name="_gotcha" style="display:none" />
+						<input form="contactme" type="hidden" name="_next" value="thanks.html" />
 
 					</form>
 
