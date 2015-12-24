@@ -118,7 +118,7 @@ a i {
 	margin-top:2vh
 }
 
-form p textarea {
+#details-form {
 	width: 90vw;
 	height: 20vh;
 	resize: none;
