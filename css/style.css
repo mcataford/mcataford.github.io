@@ -6,7 +6,7 @@ body {
 	margin: 0 0;
 }
 
-#page {
+#page-gen {
 	position: relative;
 	height: 100vh;
 	width: 100vw;
@@ -16,21 +16,19 @@ body {
 	min-height: 640px;
 }
 
-.social {
-	position: absolute;
-	bottom: 1em;
-	margin-left: 0;
-	right: 1em;
+#topmenu {
+	position: fixed;
+	top: 0;
+	width: 100vw;
 }
 
-.social ul {
-	list-style: none;
-	margin-bottom: 0;
+.panel-gen {
+	height: 100vh;
+	padding-left: 2vw;
+	padding-top: 10vh;
 }
 
-.social ul li {
-	display: inline;
-}
+
 
 p { 
 	line-height: 1.2;
@@ -38,11 +36,11 @@ p {
 }
 
 a {
-	color :#727272;
+	color :#727272 !important;
 }
 
 a:hover {
-	color: #03A9F4;
+	color: #03A9F4 !important;
 }
 
 a i {
@@ -50,33 +48,13 @@ a i {
 }
 
 /*
-* PANELS
-*/
-
-#panel-landing {
-	/*text-align: center;*/
-	height: 25vh;
-	background-color: #FFF;
-}
-
-#panel-resume {
-
-}
-
-#panel-projects {
-
-}
-
-#panel-intouch {
-
-}
-
-/*
 * LANDING PANEL
 */
 
+/*Bigger things*/
+
 #container-landing{
-	margin-left:2vw;
+	padding-top: 25vh;
 }
 
 #greet {
@@ -88,6 +66,8 @@ a i {
 	overflow: hidden;
 	margin-left:0.4vw;
 }
+
+/*Navigation*/
 
 #container-landing ul {
 	list-style: none;
@@ -104,20 +84,16 @@ a i {
 }
 
 /*
-* RESUME PANEL
+* ABOUT ME PANEL
 */
 
-#panel-resume .fp-tableCell {
-	vertical-align: baseline;
-}
+/*Bigger things*/
 
-#container-me {
-	margin-left:2vw;
+#container-aboutme {
 	width: 95%;
-	margin-top:2vh
 }
 
-#container-me p {
+#container-aboutme p {
 	margin-top: 0;
 }
 
@@ -127,59 +103,6 @@ a i {
 	display: inline;
 }
 
-/*
-* PROJECTS PANEL
-*/
-
-#panel-projects .fp-tableCell {
-	vertical-align: baseline;
-}
-
-.projects-row {
-	height: 36%;
-	width: 90%;
-	margin-left: auto;
-	margin-right:auto;
-	margin-top: 1vh;
-	padding: 1.5vh 7vw;
-}
-
-.projects-cell {
-	width: 30%;
-	height:100%;
-	background-color: #03A9F4;
-	margin:1% 1%;
-	float:left;
-}
-
-#container-projects-main {
-	text-align:center;
-}
-
-.slide-header {
-	font-size: 4vw;
-}
-
-#cell1 {
-	background-image: url("../images/bathbomb1.jpg");
-	background-size: 100% 100%;
-	box-shadow: inset 0px 0px 0px 1000px rgba(0,0,0,0.5);
-}
-
-#cell2 {
-	background-image: url("../images/robotdpm.jpg");
-	background-size: 100% ;
-	box-shadow: inset 0px 0px 0px 1000px rgba(0,0,0,0.5);
-}
-
-.projects-cell p {
-	color: #fff;
-	font-family: Oswald;
-}
-
-.cell-date { font-size: 7vh; }
-.cell-title { font-size: 5vh; }
-.cell-source { font-size: 3vh; }
 
 /*
 * INTOUCH PANEL
@@ -195,18 +118,10 @@ a i {
 	margin-top:2vh
 }
 
-#social-boxes {
-	text-align: center;
-}
-
-#social-boxes ul {
-	list-style: none;
-}
-
-#social-boxes ul li {
-	display: inline;
-	margin-left: 3vh;
-	font-size:5vh;
+form p textarea {
+	width: 90vw;
+	height: 20vh;
+	resize: none;
 }
 
 /*
@@ -233,7 +148,25 @@ a i {
 .primarytext {color :#727272;} 
 .accent {color:#03A9F4;}
 
+.ta-center { text-align: center; }
 
+/*
+* SOCIAL MEDIA BOXES
+*/
+
+
+.social ul {
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.social ul li {
+	display: inline;
+}
+
+.social ul li a i {
+	font-size: 7vh;
+}
 
 /*
 * FONT DATA
@@ -241,6 +174,7 @@ a i {
 
 .opensans { font-family: OpenSans; }
 .oswald { font-family: Oswald; }
+.courgette { font-family: Courgette; }
 
 @font-face {
 	font-family: OpenSans;
@@ -250,4 +184,9 @@ a i {
 @font-face {
 	font-family: Oswald;
 	src: url("../fonts/Oswald-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Courgette;
+	src: url("../fonts/Courgette-Regular.ttf") format("truetype");
 }

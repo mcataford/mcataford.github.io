@@ -5,14 +5,51 @@
 		<title>Hello!</title>
 		<!-- Stylesheets -->
 		<link href="css/style.css" rel="stylesheet">
-		<link href="css/fullpage.css" rel="stylesheet">
-		<link href="css/typed/main.css" rel="stylesheet">
+		<!--<link href="css/fullpage.css" rel="stylesheet">-->
+		<link rel="stylesheet" href="css/typed/main.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
-		<div id="page">
-			<div id="panel-landing" class="section primarytext">
+		<div id="page-gen">
+			<div id="topmenu">
+				<nav class="navbar navbar-default">
+			  	<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      	</button>
+			      	<a class="navbar-brand courgette menulink" id="#panel-landing">Marc Cataford</a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse oswald basesize" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li><a id="#panel-aboutme" class="menulink">About me <span class="sr-only">(current)</span></a></li>
+			        <li><a id="#panel-intouch" class="menulink">Get in touch!</a></li>
+			      </ul>
+
+			            <ul class="nav navbar-nav navbar-right">
+		<div class="social">
+			<ul>
+				<li><a href="https://www.facebook.com/marc.cataford"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+				<li><a href="https://twitter.com/_mcataford"><i class="fa fa-2x fa-twitter-square"></i></a></li>
+				<li><a href="https://github.com/mcataford"><i class="fa fa-2x fa-github-square"></i></a></li>
+				<li><a href="https://www.instagram.com/_mcataford/"><i class="fa fa-2x fa-instagram"></i></a></li>
+			</ul>
+		</div>
+      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			</div>
+
+			<div id="panel-landing" class="panel-gen primarytext">
 				<div id="container-landing" class="basesize">
 					<p id="greet" class="mb-z opensans">I'm <span class="accent bold oswald">Marc</span> and I love to <span id="typedWords" class="accent bold oswald"></span></p>
 
@@ -20,24 +57,11 @@
 						<p class="mt-z basesize opensans"> I am a <span class="accent accentsize bold oswald">third-year computer engineering student</span> at <span class="accent accentsize bold oswald">McGill University</span>.</p>
 						<p class="basesize opensans">I'm interested in <span class="accent accentsize bold oswald">full-stack web development</span>, <span class="accent accentsize bold oswald">hardware design</span> and <span class="accent accentsize bold oswald">low-level programming</span>.
 					</div>
-
-					<ul class="oswald">
-						<li><a href="#resume" class="primarytext">Resume</a></li>
-						<li><a href="#getInTouch" class="primarytext">Get in touch</a></li>
-					</ul>
-				</div>
-				<div class="social">
-					<ul>
-					<li><a href="https://www.facebook.com/marc.cataford"><i class="fa fa-3x fa-facebook-square"></i></a></li>
-					<li><a href="https://twitter.com/_mcataford"><i class="fa fa-3x fa-twitter-square"></i></a></li>
-					<li><a href="https://github.com/mcataford"><i class="fa fa-3x fa-github-square"></i></a></li>
-					<li><a href="https://www.instagram.com/_mcataford/"><i class="fa fa-3x fa-instagram"></i></a></li>
-				</ul>
 				</div>
 			</div>
 
-			<div id="panel-resume" class="section primarytext">
-				<div id="container-me" class="opensans basesize">
+			<div id="panel-aboutme" class="panel-gen primarytext">
+				<div id="container-aboutme" class="opensans basesize">
 					<div style="text-align: center"><img id="img_bubble1" src="images/web_couchpotato.jpg"></div>
 					<p>My name is <span class="accent accentsize bold oswald">Marc Cataford</span>, I am a <span class="accent accentsize bold oswald">25</span> years old Montrealer.
 					<p>I'm currently completing my <span class="accent accentsize bold oswald">third year</span> as a <span class="accent accentsize bold oswald">computer engineering</span> student at McGill University and I am looking for <span class="accent accentsize bold oswald">new opportunities</span>.
@@ -48,34 +72,31 @@
 
 				</div>
 
-				<div class="social">
-					<ul>
-					<li><a href="https://www.facebook.com/marc.cataford"><i class="fa fa-3x fa-facebook-square"></i></a></li>
-					<li><a href="https://twitter.com/_mcataford"><i class="fa fa-3x fa-twitter-square"></i></a></li>
-					<li><a href="https://github.com/mcataford"><i class="fa fa-3x fa-github-square"></i></a></li>
-					<li><a href="https://www.instagram.com/_mcataford/"><i class="fa fa-3x fa-instagram"></i></a></li>
-				</ul>
-				</div>
+
 			</div>
 
 
 
-			<div id="panel-intouch" class="section primarytext">
+			<div id="panel-intouch" class="panel-gen primarytext">
 				<div id="container-intouch" class="opensans">
 					<p class="accent accentsize oswald">Want to get in touch?</p>
 					<p class="primarytext basesize">I'd love to hear from you!</p>
 					<br>
-					<p class="primarytext basesize">Feel free to reach out through <span class="accent accentsize oswald">social media</span> by clicking on the appropriate icon:</p>
-					<div id="social-boxes">
-						<ul>
-							<li><a href="https://www.facebook.com/marc.cataford"><i class="fa fa-5x fa-facebook-square"></i></a></li>
-							<li><a href="https://twitter.com/_mcataford"><i class="fa fa-5x fa-twitter-square"></i></a></li>
-							<li><a href="https://github.com/mcataford"><i class="fa fa-5x fa-github-square"></i></a></li>
-							<li><a href="https://www.instagram.com/_mcataford/"><i class="fa fa-5x fa-instagram"></i></a></li>
-						</ul>
-					</div>
+					<p class="primarytext basesize">Feel free to reach out through <span class="accent accentsize oswald">social media</span> by clicking on the appropriate icon in the bar at the top of the page.</p>
 
-					<p class="primarytext basesize">...or send me an <span class="accent accentsize oswald">email</span> at <a href="mailto:c.marcandre@gmail.com">c.marcandre[at]gmail.com</a></p> 
+					<p class="primarytext basesize">You can also send me an <span class="accent accentsize oswald">email</span> at <a href="mailto:c.marcandre@gmail.com">c.marcandre[at]gmail.com</a>, or fill the form below!</p> 
+
+					<form action="http://formspree.io/c.marcandre@gmail.com" method="POST">
+						<p class="accentsize accent oswald">About you:</p>
+						<p class="basesize">My name is <input type="text" class="accent" placeholder="Johnny Appleseed"required>, I'm a <input type="text" class="accent" placeholder="fellow tinkerer">. You can come back to me at <input type="text" class="accent" placeholder="foo@bar.baz" required></p>
+						<p class="basesize">I'd like to tell you about ...</p>
+						<p class="basesize"><textarea placeholder="... this new cool thing I'm working on." required></textarea></p>
+						<div class="ta-center">
+							<input type="submit" value="Send message">
+						</div>
+
+					</form>
+
 				</div>
 			</div>
 		</div>
@@ -83,9 +104,13 @@
 
 		<!-- JS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 		
-		<script src="js/fullpage.js"></script>
+		<script src="js/jquery-visible/jquery.visible.min.js"></script>
 		<script src="js/typed.js"></script>
+
 		<script src="js/animate.js"></script>
 	</body>
 
