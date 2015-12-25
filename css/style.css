@@ -169,6 +169,30 @@ form p textarea {
 }
 
 /*
+* CONTACT FORM POPUP
+*/
+
+#contact-popup {
+	position: fixed;
+	top: 20vh;
+	height: 50vh;
+	width: 50vw;
+	background-color: #03A9F4;
+	left: 25vw;
+	border-radius: 15vw;
+	text-align: center;
+	padding-top: 15vh;
+	display: none;
+}
+
+#thanks {
+	color:  #fff;
+    font-family: Oswald;
+    font-size: 4vw;
+}
+
+
+/*
 * FONT DATA
 */
 
