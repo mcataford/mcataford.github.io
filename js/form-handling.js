@@ -5,7 +5,12 @@ $contactForm.submit(function(e) {
 	$.ajax({
 		url: '//formspree.io/c.marcandre@gmail.com',
 		method: 'POST',
-		data: $(this).serialize(),
+		data: {
+			Sender: $("#sender").val(),
+			Position: $("#function").val(),
+			Email: $("#replyto").val(),
+			Details: $("#details").val()
+		},
 		dataType: 'json',
 		beforeSend: function() {
 			console.log("Sending.");
