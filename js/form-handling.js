@@ -20,6 +20,7 @@ $contactForm.submit(function(e) {
 			console.log("Sending.");
 		},
 		success: function(data) {
+			$('#contactme').trigger("reset");
 			$("#contact-popup").fadeIn();
 		},
 		error: function(err) {
