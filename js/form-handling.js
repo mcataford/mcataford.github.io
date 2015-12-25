@@ -21,7 +21,7 @@ $contactForm.submit(function(e) {
 		},
 		success: function(data) {
 			$('#contactme').trigger("reset");
-			$("#contact-popup").fadeIn();
+			$("#contact-popup").fadeIn("slow");
 		},
 		error: function(err) {
 			console.log("Failed.");

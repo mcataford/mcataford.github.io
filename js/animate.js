@@ -37,6 +37,6 @@ $(".menulink").click(function() {
 
 $(document).click(function() {
     if($("#contact-popup").is(':visible')) {
-      $("#contact-popup").fadeOut();
+      $("#contact-popup").fadeOut("slow");
     }
 });
