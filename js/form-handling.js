@@ -1,3 +1,7 @@
+/*
+* Contact form handling using AJAX, sends request to Formspree.io
+*/
+
 var $contactForm = $('#contactme');
 
 $contactForm.submit(function(e) {
@@ -16,7 +20,7 @@ $contactForm.submit(function(e) {
 			console.log("Sending.");
 		},
 		success: function(data) {
-			console.log("Sent.");
+			$("#contact-popup").fadeIn();
 		},
 		error: function(err) {
 			console.log("Failed.");
