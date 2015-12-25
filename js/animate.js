@@ -1,9 +1,9 @@
-$(window).ready(function() {
-    /*$('#page').fullpage({
-        anchors:["landing","resume","getInTouch"]
-    });*/
+/*
+* Typed.js animation for the landing panel.
+*/
 
-    var period = "<span style='color:#727272;font-weight:normal'>.</span>";
+$(window).ready(function() {
+    var period = "<span class='primarytext' style='font-weight:normal'>.</span>";
   	var typedStrings = ["code"+period, "learn new things"+period, "tinker"+period, "communicate"+period, "teach"+period, "solve problems"+period, "get things done"+period];
 
   	$("#typedWords").typed({
@@ -16,8 +16,11 @@ $(window).ready(function() {
     	loop: true,
     	contentType: 'html'
   	});
-  });
+});
 
+/*
+* Scroll on menu link click
+*/
 $(".menulink").click(function() {
     var $panel = $(this).attr("id");
 
@@ -26,4 +29,14 @@ $(".menulink").click(function() {
     $('html,body').animate({
         scrollTop: $($panel).offset().top},
         'slow');
+});
+
+/*
+* Closing the contact form popup
+*/
+
+$(document).click(function() {
+    if($("#contact-popup").is(':visible')) {
+      $("#contact-popup").fadeOut();
+    }
 });
