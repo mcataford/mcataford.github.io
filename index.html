@@ -2,120 +2,70 @@
 
 <html>
 	<head>
-		<title>Hello! I'm Marc!</title>
+		<title></title>
+
+		<!-- Meta -->
+		<meta charset="UTF-8">
+
 		<!-- Stylesheets -->
-		<link href="css/style.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/typed/main.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- See bottom for JS, loaded last for speed -->
 	</head>
 
 	<body>
-		<div id="page-gen">
-			<div id="topmenu">
-				<nav class="navbar navbar-default">
-			  	<div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      	</button>
-			      	<a class="navbar-brand courgette menulink" id="#panel-landing">Marc Cataford</a>
-			    </div>
-
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse oswald basesize" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li><a id="#panel-aboutme" class="menulink">About me <span class="sr-only">(current)</span></a></li>
-			        <li><a id="#panel-intouch" class="menulink">Get in touch!</a></li>
-			      </ul>
-
-			            <ul class="nav navbar-nav navbar-right">
-		<div class="social">
-			<ul>
-				<li><a href="https://www.facebook.com/marc.cataford"><i class="fa fa-2x fa-facebook-square"></i></a></li>
-				<li><a href="https://twitter.com/_mcataford"><i class="fa fa-2x fa-twitter-square"></i></a></li>
-				<li><a href="https://github.com/mcataford"><i class="fa fa-2x fa-github-square"></i></a></li>
-				<li><a href="https://www.instagram.com/_mcataford/"><i class="fa fa-2x fa-instagram"></i></a></li>
-			</ul>
-		</div>
-      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#hello">Home</a></li>
+					<li><a href="#aboutme">About me</a></li>
+					<li><a href="#">Curriculum vitae</a></li>
+					<li><a href="#">Contact me</a></li>
+				</ul>
 			</nav>
+
+			<ul>
+				<li><a href="#"><i class="fa fa-3x fa-facebook-square"></i></a></li>
+				<li><a href="#"><i class="fa fa-3x fa-twitter-square"></i></a></li>
+				<li><a href="#"><i class="fa fa-3x fa-github-square"></i></a></li>
+			</ul>
+
+			<hr>
+		</header>
+
+		<main class="ubuntu primary">
+			<div class="panel" id="hello">
+				<section class="pad10vw">
+					<h1 class="marb1r">Hi, I'm <span class='accent'>Marc</span>.</h1>
+					<h2>I love to <span id="landing-subtyped"></span></h2>
+					<p>I am a <span class='accent'>third-year computer engineering</span> student at <span class='accent'>McGill University</span> who is interested in <span class='accent'>full-stack web development</span>, <span class='accent'>embedded electronics</span>, <span class='accent'>low-level programming</span> and <span class='accent'>journalism</span>. 
+				</section>
 			</div>
 
-			<div id="panel-landing" class="panel-gen primarytext">
-				<div id="container-landing" class="basesize">
-					<p id="greet" class="mb-z opensans">I'm <span class="accent bold oswald">Marc</span> and I love to <span id="typedWords" class="accent bold oswald"></span></p>
-
-					<div id="landing-blurb">
-						<p class="mt-z basesize opensans"> I am a <span class="accent accentsize bold oswald">third-year computer engineering student</span> at <span class="accent accentsize bold oswald">McGill University</span>.</p>
-						<p class="basesize opensans">I'm interested in <span class="accent accentsize bold oswald">full-stack web development</span>, <span class="accent accentsize bold oswald">hardware design</span> and <span class="accent accentsize bold oswald">low-level programming</span>.
-					</div>
-				</div>
-			</div>
-
-			<div id="panel-aboutme" class="panel-gen primarytext">
-				<div id="container-aboutme" class="opensans basesize">
-					<div style="text-align: center"><img id="img_bubble1" src="images/web_couchpotato.jpg"></div>
-					<p>My name is <span class="accent accentsize bold oswald">Marc Cataford</span>, I am a <span class="accent accentsize bold oswald">25</span> years old Montrealer.
-					</p><p>I'm a <span class="accent accentsize bold oswald">third year</span> as a <span class="accent accentsize bold oswald">computer engineering</span> student at McGill University and I am looking for <span class="accent accentsize bold oswald">new opportunities</span>.
-					</p><p>These days, I'm a <span class="accent accentsize bold oswald">web editor / web developer</span> at <a href="www.mcgilldaily.com">The McGill Daily</a>, a student newspaper published weekly, and updated online almost daily for our 80,000+ monthly visitors. I've also been <span class="accent accentsize bold oswald">tutoring</span> computer engineering  and programming for the past three years.
-					</p><p>I'm proficient with <span class="accent accentsize bold oswald">Java</span>, <span class="accent accentsize bold oswald">C/C++</span>, <span class="accent accentsize bold oswald">PHP</span> and <span class="accent accentsize bold oswald">Javascript</span>, as well as basic knowledge of <span class="accent accentsize bold oswald">Python</span>,  <span class="accent accentsize bold oswald">Assembly</span> and <span class="accent accentsize bold oswald">Matlab</span>.
-					</p><p>I also have experience with <span class="accent accentsize bold oswald">Photoshop</span>, <span class="accent accentsize bold oswald">Wordpress</span> and <span class="accent accentsize bold oswald">Logisim</span>.
+			<div class="panel" id="aboutme">
+				<section class="pad10vw pad10vh">
+					<h1 class="marb1r">A bit more about me</h1>
+					<p>I am <span class='accent'>determined</span>. Before finding (and falling in love with) engineering at 22, I have studied physiology, mathematics and psychology. The day I received the acceptance letter from McGill was amongst the happiest I can remember. I have always been a <span class='accent'>tinkerer</span>, an adept of <span class='accent'>DIY</span> and a <span class='accent'>keen learner</span>. This long journey allowed me to work in cool places like an <a href="#">historically-rich mental hospital</a>, various CÉGEPs and a YMCA, teaching me the value of <span class='accent'>hard work</span> and <span class='accent'>perserverance</span>. No matter the job, my motto is to do things <span class='accent'>well</span> or keep practicing until I can <span class='accent'>exceed expectations</span>.
 					
+					<p>For the past year, I have been working as a <span class='accent'>Web editor</span> at <a href="#">The McGill Daily</a>, one of the oldest university publications in Canada – publishing continually since 1911 and attracting around <span class='accent'>80,000 visitors monthly</span> online.
 
-				</p></div>
-				</div>
+					<p>I have also been <span class='accent'>tutoring</span> professionally for <span class='accent'>six years</span>, at first in French grammar, and then in various <span class='accent'>computer science and engineering topics</span> ranging from <span class='accent'>software/web programming</span> to <span class='accent'>computer organization and digital design</span>.
 
+					<p>I am always looking for new opportunities to <span class='accent'>learn</span> and to <span class='accent'>grow</span>, and one of my primary goals at the moment is acquiring <span class='accent'>professional experience</span> related to my interests through <span class='accent'>freelance contracts</span> and <span class='accent'>internships</span>.
 
-
-			<div id="panel-intouch" class="panel-gen primarytext">
-				<div id="container-intouch" class="opensans">
-					<p class="accent accentsize oswald">Want to get in touch?</p>
-					<p class="primarytext basesize">I'd love to hear from you!</p>
-					<br>
-					<p class="primarytext basesize">Feel free to reach out through <span class="accent accentsize oswald">social media</span> by clicking on the appropriate icon in the bar at the top of the page.</p>
-
-					<p class="primarytext basesize">You can also send me an <span class="accent accentsize oswald">email</span> at <a href="mailto:c.marcandre@gmail.com">c.marcandre[at]gmail.com</a>, or fill the form below!</p> 
-
-					<form id="contactme">
-						<p class="accentsize accent oswald">About you:</p>
-						<p class="basesize">My name is <input id="sender" type="text" class="accent" placeholder="Johnny Appleseed"required>, I'm a <input id="function" type="text" class="accent" placeholder="fellow tinkerer">. You can contact me at <input id="replyto" type="email" class="accent" placeholder="foo@bar.baz" required>.</p>
-						<p class="basesize">I'd like to tell you about ...</p>
-						<p class="basesize"><textarea id="details" class="accent" placeholder="... this new cool thing I'm working on." required></textarea></p>
-						<div class="ta-center">
-							<input type="submit" value="Send message">
-						</div>
-
-						<input form="contactme" type="hidden" name="_subject" value="Contact form submission" />
-						<input form="contactme" type="text" name="_gotcha" style="display:none" />
-
-					</form>
-
-				</div>
+				</section>
 			</div>
+		</main>
 
-			<div id="contact-popup">
-  				<p id="thanks">Thanks for reaching out!</p>
-  				<p class="basesize oswald">I'll get back to you as soon as possible!</p>
-			</div>
-		</div>
+		<footer>
+
+		</footer>
 
 
 		<!-- JS -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		
-		<script src="js/jquery-visible/jquery.visible.min.js"></script>
-		<script src="js/typed/typed.js"></script>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="js/typed/typed.min.js"></script>
 		<script src="js/animate.js"></script>
-		<script src="js/form-handling.js"></script>
 	</body>
-
 </html>

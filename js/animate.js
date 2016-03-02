@@ -1,42 +1,24 @@
-/*
-* Typed.js animation for the landing panel.
-*/
-
-$(window).ready(function() {
-    var period = "<span class='primarytext' style='font-weight:normal'>.</span>";
-  	var typedStrings = ["code"+period, "learn new things"+period, "tinker"+period, "communicate"+period, "teach"+period, "solve problems"+period, "get things done"+period];
-
-  	$("#typedWords").typed({
-    	strings: typedStrings,
-    	typeSpeed:0,
-    	backSpeed:0,
-    	backDelay: 1500,
-    	showCursor: true,
-    	cursorChar: "_",
-    	loop: true,
-    	contentType: 'html'
-  	});
+$(function(){
+      $("#landing-subtyped").typed({
+        strings: ["<span class='accent'>tinker</span>.", 
+        "<span class='accent'>share what I know</span>.",
+         "<span class='accent'>learn new things</span>.",
+         "<span class='accent'>code</span>.",
+         "<span class='accent'>communicate</span>."],
+        typeSpeed: 20,
+        loop: true,
+        backDelay: 2000,
+        backSpeed: 0,
+        cursorChar: "&block;"
+      });
 });
 
-/*
-* Scroll on menu link click
-*/
-$(".menulink").click(function() {
-    var $panel = $(this).attr("id");
-
-    console.log($panel);
-
-    $('html,body').animate({
-        scrollTop: $($panel).offset().top},
-        'slow');
-});
-
-/*
-* Closing the contact form popup
-*/
-
-$(document).click(function() {
-    if($("#contact-popup").is(':visible')) {
-      $("#contact-popup").fadeOut("slow");
+$('a').on('click', function(event) {
+    var target = $($(this).attr('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
     }
 });
