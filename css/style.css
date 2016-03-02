@@ -36,6 +36,14 @@ body {
 .primary { color: #727272; }
 
 /*
+*	Links
+*/
+
+a:link, a:visited {
+	color : #03A9F4;
+}
+
+/*
 *	Header
 */
 header {
