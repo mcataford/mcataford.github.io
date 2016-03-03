@@ -23,7 +23,8 @@ body {
 */
 
 .pad10vw { padding-left: 10vw; padding-right: 10vw;}
-.pad10vh { padding-top: 10vh !important; }
+.pad10vh { padding-top: 10vh; }
+.pad30vh { padding-top: 30vh; }
 
 .marb1r { margin-bottom: 1rem;}
 
@@ -103,10 +104,6 @@ header a {
 .panel {
 	height: 100vh;
 	width: 100vw;
-}
-
-.panel > section {
-	padding-top: 30vh;
 }
 
 .panel > section > h1 {
