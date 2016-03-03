@@ -120,6 +120,27 @@ header a {
 }
 
 /*
+*	Contact me
+*/
+
+#contactme form textarea {
+	width: 100%;
+	height: 100px;
+	resize: none;
+}
+
+fieldset {
+	border: none;
+}
+
+textarea, input {
+	font-family: inherit;
+	font-size: inherit;
+	box-shadow: 0 0 3px #a1a1a1;
+	border: none;
+}
+
+/*
 *	Footer
 */
 
