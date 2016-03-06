@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title></title>
+		<title>Hi!</title>
 
 		<!-- Meta -->
 		<meta charset="UTF-8">
@@ -26,8 +26,8 @@
 				<ul>
 					<li><a href="#hello">Home</a></li>
 					<li><a href="#aboutme">About me</a></li>
-					<li><a href="#cv">Curriculum vitae</a></li>
-					<li><a href="#contactme">Contact me</a></li>
+					<li style="display: none"><a href="#cv">Curriculum vitae</a></li>
+					<li style="display: none"><a href="#contactme">Contact me</a></li>
 				</ul>
 			</nav>
 
@@ -70,13 +70,13 @@
 				</section>
 			</div>
 
-			<div class="panel" id="contactme" style="display: none;">
+			<div class="panel" id="contactme">
 				<section class="pad10vh pad10vw">
 					<h1 class="marb1r">Get in touch!</h1>
 
 					<p>I would love to hear about you, whether it is about new opportunities, suggestions, or clever limericks. You can reach me through social media at <a href="https://www.twitter.com/_mcataford">@_mcataford</a>, by <a href="mailto:c.marcanndre@gmail.com">email</a> or by filling the form below!</p>
 
-					<form>
+					<form action="http://formspree.io/c.marcandre@gmail.com" method="POST">
 						<fieldset>
 							<p><label for="contactme-name">Hi! My name is </label><input type="text" id="contactme-name" placeholder="Johnny Appleseed" required> , <label for="contactme-email">you can reach me at </label><input type="email" id="contactme-email" placeholder="my@email.xyz" required> .</p>
 							<p><label for="contactme-details">I would like to tell you about ...</label></p>
