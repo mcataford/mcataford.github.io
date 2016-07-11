@@ -44,8 +44,8 @@ input, textarea {
     overflow:hidden;
 }
 
-.content-wrapper > h1:first-child {
-    margin-top:2rem;
+.content-wrapper > header > h1:first-child {
+    margin-top: 10vh;
 }
 
 .important-bit {
@@ -110,11 +110,12 @@ input, textarea {
     text-align: center;
 }
 
-#landing-block-3 .button {
-    margin-top: 2em;
+#landing-block-3 {
+    clear: both;
+    padding-top: 10vh;
 }
 
-/* Résumé */
+/* Other sections - general */
 
 .content-wrapper > header > h1 {
     margin-bottom:0;
