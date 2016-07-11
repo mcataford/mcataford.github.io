@@ -1,109 +1,133 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Hi!</title>
+    <head>
+        <title></title>
 
-		<!-- Meta -->
-		<meta charset="UTF-8">
+        <meta charset='UTF-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta property="og:url" content="http://mcataford.github.io" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Marc Cataford" />
-		<meta property="og:description" content="I live to serve since 1911" />
-		<meta property="og:image" content="http://mcataford.github.io/facebook.png" />
+        <link href='style.css' rel='stylesheet'>
 
-		<!-- Stylesheets -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic' rel='stylesheet' type='text/css'>
+        <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'>
 
-		<!-- See bottom for JS, loaded last for speed -->
-	</head>
-
-	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="#hello">Home</a></li>
-					<li><a href="#aboutme">About me</a></li>
-					<li style="display: none"><a href="#cv">Curriculum vitae</a></li>
-					<li><a href="#contactme">Contact me</a></li>
-				</ul>
-			</nav>
-
-			<ul>
-				<li><a href="https://www.facebook.com/marc.cataford"><i class="fa fa-3x fa-facebook-square"></i></a></li>
-				<li><a href="https://twitter.com/_mcataford"><i class="fa fa-3x fa-twitter-square"></i></a></li>
-				<li><a href="https://github.com/mcataford"><i class="fa fa-3x fa-github-square"></i></a></li>
-				<li><a href="https://ca.linkedin.com/in/marccataford"><i class="fa fa-3x fa-linkedin-square"></i></a></li>
-			</ul>
-
-			<hr>
-		</header>
-
-		<main class="ubuntu primary">
-			<div class="panel" id="hello">
-				<section class="pad10vw pad30vh">
-					<h1 class="marb1r">Hi, I'm <span class='accent'>Marc</span>.</h1>
-					<h2>I love to <span id="landing-subtyped"></span></h2>
-					<p>I am a <span class='accent'>third-year computer engineering</span> student at <span class='accent'>McGill University</span> who is interested in <span class='accent'>full-stack web development</span>, <span class='accent'>embedded electronics</span>, <span class='accent'>low-level programming</span> and <span class='accent'>journalism</span>. 
-				</section>
-			</div>
-
-			<div class="panel" id="aboutme">
-				<section class="pad10vw pad10vh">
-					<h1 class="marb1r">A bit more about me</h1>
-					<p>I am <span class='accent'>determined</span>. Before finding (and falling in love with) engineering at 22, I have studied physiology, mathematics and psychology. The day I received the acceptance letter from McGill was amongst the happiest I can remember. I have always been a <span class='accent'>tinkerer</span>, an adept of <span class='accent'>DIY</span> and a <span class='accent'>keen learner</span>. This long journey allowed me to work in cool places like an historically-rich mental hospital, various CÉGEPs and a YMCA, teaching me the value of <span class='accent'>hard work</span> and <span class='accent'>perserverance</span>. No matter the job, my motto is to do things <span class='accent'>well</span> or keep practicing until I can <span class='accent'>exceed expectations</span>.
-					
-					<p>For the past year, I have been working as a <span class='accent'>Web editor</span> at <a href="#">The McGill Daily</a>, one of the oldest university publications in Canada – publishing continually since 1911 and attracting around <span class='accent'>80,000 visitors monthly</span> online.
-
-					<p>I have also been <span class='accent'>tutoring</span> professionally for <span class='accent'>six years</span>, at first in French grammar, and then in various <span class='accent'>computer science and engineering topics</span> ranging from <span class='accent'>software/web programming</span> to <span class='accent'>computer organization and digital design</span>.
-
-					<p>I am always looking for new opportunities to <span class='accent'>learn</span> and to <span class='accent'>grow</span>, and one of my primary goals at the moment is acquiring <span class='accent'>professional experience</span> related to my interests through <span class='accent'>freelance contracts</span> and <span class='accent'>internships</span>.
-
-				</section>
-			</div>
-
-			<div class="panel" id="cv" style="display: none;">
-				<section>
-					<h1 class="marb1r">Curriculum vitae</h1>
-					<ul>
-						<li><section>
-							<h3>The McGill Daily</h3>
-							<p>Some task
-							<p>More tasks
-						</section></li>
-					</ul>
-				</section>
-			</div>
-
-			<div class="panel" id="contactme">
-				<section class="pad10vh pad10vw">
-					<h1 class="marb1r">Get in touch!</h1>
-
-					<p>I would love to hear about you, whether it is about new opportunities, suggestions, or clever limericks. You can reach me through social media at <a href="https://www.twitter.com/_mcataford">@_mcataford</a>, by <a href="mailto:c.marcandre@gmail.com">email</a> or by filling the form below!</p>
-
-					<form action="http://formspree.io/c.marcandre@gmail.com" method="POST">
-						<fieldset>
-							<p><label for="contactme-name">Hi! My name is </label><input type="text" id="contactme-name" placeholder="Johnny Appleseed" name="contact-name" required> , <label for="contactme-email">you can reach me at </label><input type="email" id="contactme-email" placeholder="my@email.xyz" name="contact-email" required> .</p>
-							<p><label for="contactme-details">I would like to tell you about ...</label></p>
-							<p><textarea id="contactme-details" placeholder="exciting new ideas." name="contact-details" required></textarea></p>
-							<input type="submit" value="Send">
-						</fieldset>
-					</form>
-
-				</section>
-			</div>
-		</main>
-
-		<footer>
-			<p class="txt-center"><em>From scratch, with love – <a href="mailto:c.marcandre@gmail.com">Marc Cataford</a></em></p>
-		</footer>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+        <script src='js/events.js'></script>
 
 
-		<!-- JS -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<script src="js/typed/typed.min.js"></script>
-		<script src="js/animate.js"></script>
-	</body>
+    </head>
+
+    <body>
+        <header></header>
+        <main>
+            <div id='landing-wrapper' class='full-page-wrapper'>
+                <div id='landing-block-1'>
+                    <h1>Marc Cataford</h1>
+                    <p>Get in touch through Twitter at @_mcataford, on Github at @mcataford or via email at c.marcandre [at] gmail.com
+                    </p>
+                </div>
+                <div id='landing-block-2'>
+                    <p class='landing-text-block'>Hi! My name is Marc, and I'm a fourth-year computer engineering student from McGill University. My main interests lie in full-stack web development, embdedded systems, and harnessing new technologies to educate, spread information and create a more sustainable world.
+                    </p>
+                    <p class='landing-text-block'>When I'm not working on a project, tinkering at home or learning new things, I like to cycle around Montreal and experiment with preserves and food in general.
+                    </p>
+                </div>
+                <div id='landing-block-3'>
+                    <button class='button'>See what I can do for you</button>
+                </div>
+            </div>
+
+            <div id='skills-wrapper' class='full-page-wrapper content-wrapper'>
+                <header class='left-border'>
+                    <h1>Skills</h1>
+                    <p>Through my practice as a tutor and web developer, I've learned a lot in a short amount of time, as deadlines were often immovable. If a project requires the use of something I'm not familiar with, the first step is always to research and learn so I can apply.</p>
+                </header>
+
+                <h3 class='left-border'>Software</h3>
+                <section>
+                    <p>Through personal practice and teaching it to others, I've become proficient in many programming languages such as <span class='important-bit'>C/C++</span>, <span class='important-bit'>Java</span>, <span class='important-bit'>Javascript</span>, <span class='important-bit'>PHP</span>, <span class='important-bit'>x86-64 Intel assembly</span> and <span class='important-bit'>Python</span>. I've also worked with frameworks such as <span class='important-bit'>JQuery</span>, <span class='important-bit'>AngularJS</span> and <span class='important-bit'>Flask</span>.</p>
+                    <p>I've also been working with <span class='important-bit'>Wordpress</span> and Wordpress-like systems for a while.</p>
+                </section>
+
+                <h3 class='left-border'>Hardware</h3>
+                <section>
+                    <p>Over the course of a semester, I joined a robotics club that taught be the basics of <span class='important-bit'>circuit board prototyping</span> and <span class='important-bit'>soldering</span>, I then went to experiment with my trusty <span class='important-bit'>Arduino</span>, bulk electronics and a <span class='important-bit'>PIC programmer</span>.
+                    </p>
+                    <p>Recent coursework also led me to work with <span class='important-bit'>FPGAs</span> and <span class='important-bit'>VHDL</span>.</p>
+                </section>
+            </div>
+
+            <div id='resume-wrapper' class='full-page-wrapper content-wrapper'>
+                <header class='left-border'>
+                    <h1>Current work</h1>
+                    <p>I've had many different jobs before settling in engineering, these experiences have taught me to be quick on my feet, always receptive and willing to learn.</p>
+                    <p>My prime directive is to assess what the expectations are, and find a way to exceed them.</p>
+                    <p><a href='#'>Click here</a> to access my full résumé.</p>
+                </header>
+                <div class='job-col'>
+                <h5> Consultant / Web developer<br>Self-employed</h5>
+                <section>
+                    <span class='secondary'>February 2016 &mdash; Present</span>
+                    <hr>
+                    <p>My priority is always to find a way to make my client's vision a reality and to help their brand gain exposure through good web design and general advising. I am always happy to work with tight deadline and to provide ongoing support once the product is launched.</p>
+                    <p>Stack: <span class='important-bit'>A bit of everything</span></p>
+                </section>
+            </div>
+<div class='job-col'>
+                <h5>Web Editor<br>The McGill Daily</h5>
+                <section>
+                    <span class='secondary'>February 2015 &mdash; Present</span>
+                    <hr>
+                    <p>My editorial duties involve editing pieces before they are published and occasionally writing my own, as well as help my fellow editors with their own tasks. I also maintain our website and social media presence, investigate and fix any bug that comes up and develop new features and special web content on a weekly basis.</p>
+                    <p>Stack: <span class='important-bit'>PHP</span>, <span class='important-bit'>MySQL</span>, <span class='important-bit'>Wordpress</span>, <span class='important-bit'>Javascript/JQuery</span>, <span class='important-bit'>HTML5/CSS3</span></p>
+                </section>
+            </div>
+
+            <div class='job-col'>
+                            <h5>Tutor<br>Chegg Inc.</h5>
+                            <section>
+                                <span class='secondary'>April 2013 &mdash; Present</span>
+                                <hr>
+                                <p>As a tutor, my role is to prepare lesson material that fits each student and make sure they understand the subject matter. Through examples, discussions and collaborative problem solving, I ensure that the student leaves our session with the right tools to perform well in their projects.</p>
+                                <p>Stack: <span class='important-bit'>C/C++</span>, <span class='important-bit'>Java</span>, <span class='important-bit'>Javascript</span>, <span class='important-bit'>Python</span>, <span class='important-bit'>HTML5/CSS3</span>, <span class='important-bit'>x86-64 Intel assembly</span>, <span class='important-bit'>PHP</span></p>
+                            </section>
+                        </div>
+            </div>
+
+            <div id='skills-wrapper' class='full-page-wrapper content-wrapper'>
+                <header class='left-border'>
+                    <h1>Get in touch</h1>
+                    <p>Got ideas you want to discuss? Interested in hiring a consultant or web developer? Want a cycling partner? I'd love to hear from you! Use the form below or use one of these social media links to send me something.</p>
+                </header>
+                <div class='social-media'>
+                    <div class='smGlobalBtn'>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                    <div class='smGlobalBtn'>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class='smGlobalBtn'>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class='smGlobalBtn'>
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <form>
+                    <label for='name'>My name is </label><input name='name' id='name' type='text' placeholder='Johnny Appleseed'>,
+                    <label for='email'>and my email address is </label><input name='email' type='email' placeholder='me@mydomain.xyz'>.<br>
+                    <textarea placeholder="I'd like to tell you about something awesome. Here it goes ..."></textarea>
+                    <div class='submit-btn-wrapper'>
+                    <input class='button inv-button' type='submit' value='Send'></div>
+                </form>
+            </div>
+        </main>
+
+        <aside>
+            <button id='nav-arrow-up' class='button inv-button nav-arrow'><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+            <button id='nav-arrow-down' class='button inv-button nav-arrow'><i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+        </aside>
+    </body>
 </html>
