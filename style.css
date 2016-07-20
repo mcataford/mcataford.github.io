@@ -59,6 +59,10 @@ input, textarea {
     color: #000;
 }
 
+.smGlobalBtn a {
+    color: inherit;
+}
+
 /* Landing elements */
 
 #landing-wrapper {
