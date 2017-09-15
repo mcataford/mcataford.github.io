@@ -1,118 +1,42 @@
-<!DOCTYPE html>
+<!doctype HTML>
 
 <html>
-    <head>
-        <title>Marc Cataford</title>
+	<head>
+		<title>Hello!</title>
+		<link href="style.css" rel="stylesheet"/>
+	</head>
+	<body>
 
-        <!-- Meta -->
-        <meta charset='UTF-8'>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<main>
 
-        <!-- Local stylesheets -->
-        <link href='style.css' rel='stylesheet'>
+				<section class="main_matter">
 
-        <!-- External stylesheets -->
-        <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,500,300italic' rel='stylesheet' type='text/css'>
-        <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'>
+					<aside class="social">
+						<a href="https://www.github.com/mcataford"><img src="assets/github-square.png"/></a>
+						<a href="https://www.linkedin.com/in/marccataford/"><img src="assets/linkedin-square.png"/></a>
+						<a href="https://www.twitter.com/marccataford"><img src="assets/twitter-square.png"/></a>
+					</aside>
 
-        <!-- External JS -->
-        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+					<h1 class="hi">Hello</h1>
 
-        <!-- Local JS -->
-        <script src='js/events.js'></script>
-    </head>
+					<div>
+						<p>Hi! My name is <strong>Marc</strong> and I am a tinkerer/teacher/developer/engineering student.</p>
+						<p>I do a lot of things. I'm currently the chairperson and webmaster of the <a title="I live to serve since 1911" href="https//www.dailypublications.org">Daily Publications Society</a>, a non-profit organization that publishes two weekly print &amp; online student newspapers in the McGill community, the Editor-in-chief at <a title="We also organize artsy events." href="https://graphitepublications.com">Graphite Publications</a>, an independent Montreal-based online publication that tries really hard to do something different from its peers, and the web developer in charge of the clubs &amp; services of the <a title="Protector of WordPress Realms, Herder of Plugins." href="http://www.ssmu.ca">Students' Society of McGill University</a>. Oh, and I teach Java, Python and Intro. to Web development at <a title="More than 120 happy students since Fall 2016" href="http://ssmu.mcgill.ca/minicourses/">SSMU MiniCourses</a> to curious students to unwind.</p>
+						<p>I do a whole bunch of other things, check out my <a href="#">résumé</a> to know what I've been up to lately.</p>
+						<p>If you want to chat, work on some cool problems or write, hit me up at <a href="mailto:marc@marccataford.com">marc@marccataford.com</a>!</p>
+					</div>
+				</section>
 
-    <body>
-        <!--<header></header>-->
-        <main>
-            <div id='landing-wrapper' class='full-page-wrapper'>
-                <div id='landing-block-1'>
-                    <h1>Marc Cataford</h1>
-                    <p>Get in touch through Twitter at @_mcataford, on Github at @mcataford or via email at c.marcandre [at] gmail.com
-                    </p>
-                </div>
-                <div id='landing-block-2'>
-                    <p class='landing-text-block'>Hi! My name is Marc, and I'm a fourth-year computer engineering student from McGill University. My main interests lie in full-stack web development, embdedded systems, and harnessing new technologies to educate, spread information and create a more sustainable world.
-                    </p>
-                    <p class='landing-text-block'>When I'm not working on a project, tinkering at home or learning new things, I like to cycle around Montreal and experiment with preserves and food in general.
-                    </p>
-                </div>
-                <div id='landing-block-3'>
-                    <button class='button'>See what I can do for you</button>
-                </div>
-            </div>
+				<footer>
+					<em>Made with <span>❤</span> and cold coffee in the Montreal -> Toronto red-eye.</em>
+				</footer>
 
-            <div id='skills-wrapper' class='full-page-wrapper content-wrapper'>
-                <header class='left-border'>
-                    <h1><i class="fa fa-graduation-cap" aria-hidden="true"></i> Skills</h1>
-                    <p>Through my practice as a tutor and web developer, I've learned a lot in a short amount of time, as deadlines were often immovable. If a project requires the use of something I'm not familiar with, the first step is always to research and learn so I can apply.</p>
-                </header>
+		</main>
 
-                <h3 class='left-border'>Software</h3>
-                <section>
-                    <p>Through personal practice and teaching it to others, I've become proficient in many programming languages such as <span class='important-bit'>C/C++</span>, <span class='important-bit'>Java</span>, <span class='important-bit'>Javascript</span>, <span class='important-bit'>PHP</span>, <span class='important-bit'>x86-64 Intel assembly</span> and <span class='important-bit'>Python</span>. I've also worked with frameworks such as <span class='important-bit'>JQuery</span>, <span class='important-bit'>AngularJS</span> and <span class='important-bit'>Flask</span>.</p>
-                    <p>I've also been working with <span class='important-bit'>Wordpress</span> and Wordpress-like systems for a while.</p>
-                </section>
 
-                <h3 class='left-border'>Hardware</h3>
-                <section>
-                    <p>Over the course of a semester, I joined a robotics club that taught be the basics of <span class='important-bit'>circuit board prototyping</span> and <span class='important-bit'>soldering</span>, I then went to experiment with my trusty <span class='important-bit'>Arduino</span>, bulk electronics and a <span class='important-bit'>PIC programmer</span>.
-                    </p>
-                    <p>Recent coursework also led me to work with <span class='important-bit'>FPGAs</span> and <span class='important-bit'>VHDL</span>.</p>
-                </section>
-            </div>
 
-            <div id='resume-wrapper' class='full-page-wrapper content-wrapper'>
-                <header class='left-border'>
-                    <h1><i class="fa fa-cogs" aria-hidden="true"></i> Current work</h1>
-                    <p>I've had many different jobs before settling in engineering, these experiences have taught me to be quick on my feet, always receptive and willing to learn.</p>
-                    <p>My prime directive is to assess what the expectations are, and find a way to exceed them.</p>
-                    <p><a href='res/marc-cataford-resume.pdf'>Click here</a> to access my full résumé.</p>
-                </header>
-                <h3 class='left-border'>Web development</h3>
-                <section>
-                    <p>As a web developer for <span class='important-bit'>The McGill Daily</span>, <span class='important-bit'>SSMU University Affairs</span> and other organizations, I've had the chance to design and implement web content accessed by thousands. I believe in simplicity, as design should highlight the content, not take the focus away from it.
-                    </p>
-                </section>
-                <h3 class='left-border'>Education</h3>
-                <section>
-                    <p>I have been a computer science/engineering tutor at <span class='important-bit'>Chegg Tutors Inc.</span> since 2013, and a French tutor at <span class='important-bit'>Cégep du Vieux Montréal</span> since 2010. I have also tutoring privately around McGill for about a year. My time as a teacher has been a tremendous help in refining my communication and planning skills.</p>
-                </section>
-            </div>
 
-            <div id='skills-wrapper' class='full-page-wrapper content-wrapper'>
-                <header class='left-border'>
-                    <h1><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Get in touch</h1>
-                    <p>Got ideas you want to discuss? Interested in hiring a consultant or web developer? Want a cycling partner? I'd love to hear from you! Use the form below or use one of these social media links to send me something.</p>
-                </header>
-                <div class='social-media'>
-                    <div class='smGlobalBtn'>
-                        <a href='https://ca.linkedin.com/in/marccataford'><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    </div>
-                    <div class='smGlobalBtn'>
-                        <a href='https://www.facebook.com/marc.cataford'><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </div>
-                    <div class='smGlobalBtn'>
-                        <a href='https://twitter.com/@marccataford'><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </div>
-                    <div class='smGlobalBtn'>
-                        <a href='https://github.com/mcataford'><i class="fa fa-github" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <form action='https://formspree.io/c.marcandre@gmail.com' method='post'>
-                    <label for='name'>My name is </label><input name='name' id='name' type='text' placeholder='Johnny Appleseed'>,
-                    <label for='email'>and my email address is </label><input name='email' type='email' placeholder='me@mydomain.xyz'>.<br>
-                    <textarea placeholder="I'd like to tell you about something awesome. Here it goes ..."></textarea>
-                    <div class='submit-btn-wrapper'>
-                    <input class='button inv-button' type='submit' value='Send'></div>
-                </form>
-            </div>
-        </main>
+	</body>
 
-        <aside>
-            <button id='nav-arrow-up' class='button inv-button nav-arrow'><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
-            <button id='nav-arrow-down' class='button inv-button nav-arrow'><i class="fa fa-arrow-down" aria-hidden="true"></i></button>
-        </aside>
-    </body>
+
 </html>
