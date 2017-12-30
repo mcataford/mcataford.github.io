@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: "Raleway", sans-serif; }
+  body > header {
+    display: flex;
+    padding: 0.5em 5%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: calc(100vw - 10%); }
+    body > header > img {
+      border-radius: 50%; }
+    body > header nav.sections {
+      flex: 0 1 auto; }
+      body > header nav.sections ul {
+        list-style: none;
+        padding: 0; }
+        body > header nav.sections ul li {
+          display: inline-block; }
+          body > header nav.sections ul li a {
+            padding: 1em;
+            text-decoration: none;
+            color: #000;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif; }
+          body > header nav.sections ul li a:first-child {
+            padding-left: 2em; }
+    body > header nav.social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto; }
+      body > header nav.social a img {
+        max-height: 35px;
+        opacity: 0.7;
+        transition: 0.5s; }
+      body > header nav.social a:hover img {
+        opacity: 1; }
+  body > main {
+    max-width: 90%;
+    margin: 0 auto; }
+    body > main a {
+      background-color: rgba(184, 222, 255, 0.4);
+      text-decoration: none;
+      color: #000;
+      margin-bottom: -2px;
+      padding: 0 0.25em; }
+    body > main a:hover {
+      background-color: rgba(184, 222, 255, 0.8); }
+    body > main a:visited {
+      color: inherit; }
+    body > main aside.banner {
+      text-align: center;
+      font-size: 4em; }
