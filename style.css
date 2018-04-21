@@ -34,6 +34,7 @@ main {
 
 #me {
   max-height: 60vh;
+  max-width: 80vw;
   border-radius: 50%;
   background-color: rgb(54, 193, 82);
 
@@ -55,6 +56,8 @@ h1, h2 {
   animation-fill-mode: forwards;
 
   transform: scale(0);
+
+  text-align: center;
 }
 
 h1 { font-size: 1.6em; }
@@ -101,4 +104,13 @@ h2 span { color: rgb(54, 193, 82); font-weight: bold;}
 @keyframes init_me2 {
   0% { transform: translate(-50%, -50%) scale(0); }
   100% { transform: translate(-50%, -50%) scale(1); }
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    overflow-x: hidden;
+  }
+  #links a svg.fa-3x {
+    font-size: 2em;
+  }
 }
