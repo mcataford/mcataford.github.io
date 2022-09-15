@@ -19,7 +19,7 @@ jobs:
           path: |
             index.html
             styles.css
-            hi.png
+            me.png
   preview:
     runs-on: ubuntu-latest
     needs: prepare
