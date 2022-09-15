@@ -1,8 +1,52 @@
-html, body { background-color: #fdfdfd; margin: 0; font-family: 'Open Sans', sans-serif; font-size: 18px; }
-main { height: 100vh; width: 100vw; display: flex; justify-content: center; align-items: center; }
+html, body {
+    background-color: #fdfdfd;
+    margin: 0; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 18px;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main p { line-height: 1.5; }
-main > section { width: 80%; max-width: 800px; }
+
+main > * {
+    width: 50%;
+    max-width: 500px;
+}
+
+img { width: 100%; }
+
 h1 { text-align: center; }
-main > section > figure { display: flex; align-items: center; flex-direction: column; }
+
+main > section > figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 a { font-weight: bold; }
-strong, a { color: #1a82c1; }
+
+strong, a, hr { color: #a25c29; }
+
+hr { border-style: dashed; }
+
+@media only screen and (max-width: 600px) {
+    main {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+    main > * {
+        width: 80%;
+    }
+}
