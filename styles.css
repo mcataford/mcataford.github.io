@@ -30,9 +30,9 @@ main > section > figure {
     justify-content: center;
 }
 
-a { font-weight: bold; }
+a { font-weight: bold; text-decoration: underline wavy; }
 
-strong, a, hr { color: #a25c29; }
+strong, a, hr { color: #297a00; }
 
 hr { border-style: dashed; }
 
